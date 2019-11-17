@@ -6,7 +6,7 @@ const Header = () => {
         <header>
             <br />
             <br />
-            <i class="fas fa-book fa-4x"></i>
+            <i className="fas fa-book fa-4x"></i>
             <h1>Google Book Search</h1>
         </header>
     )
