@@ -13,5 +13,9 @@ header {
 header h1{
   display: inline;
   margin-left: 15px;
-  font-weight: 500;
+  font-weight: 400;
+}
+
+.search-area{
+  text-align: center;
 }
