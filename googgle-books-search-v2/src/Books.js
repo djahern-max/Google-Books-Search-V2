@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import SearchArea from './SearchArea';
+import BookList from './BookList';
 import request from 'superagent';
+// import BookList from './BookList';
 
 
 class Books extends Component {
@@ -34,7 +36,7 @@ class Books extends Component {
             <div>
                 <br />
                 <SearchArea searchBook={this.searchBook} handleSearch={this.handleSearch} />
-                <BookList />
+                {/* <BookList books={this.state.books} /> */}
             </div>
         )
     }
