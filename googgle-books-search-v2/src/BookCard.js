@@ -9,11 +9,12 @@ const BookCard = (props) => {
             <img src={props.image} alt="" />
             <div className="desc">
                 <h2>{props.title}</h2>
-                <h3>{props.athor}</h3>
-                <p>{props.publishedDate}</p>
+                <p>Author: {props.author}</p>
+                <p>Published: {props.published === '0000' ? 'Not Available' : props.published.substring(0, 4)}</p>
             </div>
-
         </div>
+
+
     )
 }
 
